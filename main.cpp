@@ -4,7 +4,7 @@
 
 
 const char* ssid = "Tenda_8FA030";
-const char* password = "openrice341";
+const char* password = "privadojiji";
 
 
 const char* mqtt_server = "192.168.0.108";
