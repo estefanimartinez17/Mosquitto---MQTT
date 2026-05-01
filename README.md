@@ -26,6 +26,7 @@ El diseño original de esta práctica contemplaba el uso de una placa SBC (Orang
 6. Compilar el proyecto y subir el firmware a la ESP32.
 
 ## Evidencia de Funcionamiento
-*(poner mi captura de pantalla)*
+<img width="1919" height="1026" alt="Evidencia_MensajesESP32" src="https://github.com/user-attachments/assets/703919f7-30dd-4a1f-b6db-aa4d65846966" />
 
-En la imagen adjunta se observa el Monitor Serial (PlatformIO) de la ESP32 confirmando la conexión al broker y la publicación cíclica de mensajes, operando en paralelo con la terminal nativa del suscriptor recibiendo los paquetes de datos en tiempo real.
+
+En la evidencia adjunta se demuestra el flujo de comunicación MQTT en tiempo real. Del lado izquierdo, el Monitor Serial de PlatformIO muestra al nodo ESP32 (Publisher) enviando mensajes de forma cíclica. A su vez, del lado derecho, la terminal de Windows operando como cliente suscriptor mediante Mosquitto, confirma la recepción exitosa e inmediata de los paquetes de datos.
