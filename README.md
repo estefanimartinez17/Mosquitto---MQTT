@@ -1,9 +1,9 @@
 # Mosquitto---MQTT
 ## Práctica: Publisher MQTT con ESP32
-## **Escuela Superior de Cómputo - Instituto Politécnico Nacional** 
-## **Carrera:** Ingeniería en Sistemas Computacionales
-## **UA:** Internet Of Things 6CM3 
-## **Autor:** Martinez Ortiz Patricia Estefania  
+**Escuela Superior de Cómputo - Instituto Politécnico Nacional** 
+**Carrera:** Ingeniería en Sistemas Computacionales
+**UA:** Internet Of Things 6CM3 
+**Autor:** Martinez Ortiz Patricia Estefania  
 
 ## Objetivo
 Implementar un nodo Publisher utilizando un microcontrolador ESP32 para enviar mensajes a un broker MQTT a través de una red Wi-Fi local de 2.4 GHz.
